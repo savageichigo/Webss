@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,400;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="Hidemenu()"></i>
+
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="Showmenu()"></i>
+
+        </nav>
+
+        <div class="text-box">
+            <h1>World's Greatest Dogs</h1>
+            <p>
+                The Labrador Retriever is the most popular dog in the United States for a reason. <br> The breed is
+                friendly,
+                patient, and trainable. The breed is extremely versatile, doing everything including hunting, showing,
+                dock diving, tracking, obedience.
+            </p>
+            <a href="" class="hro">Visit Us To Know More</a>
+        </div>
+    </section>
+
+
+    <section class="Abilities">
+        <h1>Characteristics</h1>
+
+        <div class="row">
+            <div class="Abilities-col">
+                <h3>Athletic Ability</h3>
+                <p>The Labrador is a versatile dog who can sprint at speed over short distances or maintain an easy
+                    loping stride that will carry him for mile after mile. For a moderately large dog he is surprisingly
+                    agile, capable of jumping heights well in excess of a metre. The extent of his physical prowess may
+                    vary depending on the type or group of Labradors he belongs to, and we’ll look more closely at that
+                    in a moment.</p>
+
+            </div>
+            <div class="Abilities-col">
+                <h3>Labrador Temperament
+                </h3>
+                <p>Happily, Labradors are not known to be aggressive dogs. In fact, they are generally known for having
+                    a laid back, friendly and patient personality – which makes them such a great family dog. However,
+                    some Labradors can have behavioral issues. Remember, just like humans, each dog has their own
+                    personality, and the way the dog has been trained and treated will have a bearing on their behavior.
+                </p>
+            </div>
+            <div class="Abilities-col">
+                <h3>Training</h3>
+                <p>Labrador Retrievers are intelligent, highly trainable dogs who are always eager to please their
+                    owner. Labs are very powerful, strong dogs with naturally high levels of energy. For that reason,
+                    early socialization of your puppy is essential.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function Showmenu() {
+            navLinks.style.right = "0";
+        }
+        function Hidemenu() {
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>
